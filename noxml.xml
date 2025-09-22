@@ -1,0 +1,48 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="32.21971">
+<testsuite name="reporter.spec.js" timestamp="2025-09-22T13:41:11.054Z" hostname="chromium" tests="2" failures="1" skipped="0" time="34.954" errors="0">
+<testcase name="Test1" classname="reporter.spec.js" time="4.49">
+</testcase>
+<testcase name="Test2" classname="reporter.spec.js" time="30.464">
+<failure message="reporter.spec.js:9:5 Test2" type="FAILURE">
+<![CDATA[  [chromium] › reporter.spec.js:9:5 › Test2 ────────────────────────────────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: expect(page).toHaveTitle(expected) failed
+
+    Expected string: "opennote"
+    Received string: "Opennote"
+
+    Call log:
+      - Expect "toHaveTitle" with timeout 5000ms
+        8 × unexpected value "Opennote"
+
+
+      10 |     await page.goto('https://www.opennote.com/')
+      11 |     await page.waitForTimeout(5000)
+    > 12 |     await expect(page).toHaveTitle('opennote')
+         |                        ^
+      13 | })
+        at C:\Users\User\AquaProjects\SDETQA_Rest\tests\reporter.spec.js:12:24
+
+    Error Context: ..\test-results\reporter-Test2-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ..\test-results\reporter-Test2-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace ..\test-results\reporter-Test2-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\reporter-Test2-chromium\error-context.md]]
+
+[[ATTACHMENT|test-results\reporter-Test2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

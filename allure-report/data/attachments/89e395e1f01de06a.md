@@ -1,0 +1,264 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - main [ref=e4]:
+    - generic [ref=e9]:
+      - button "Opennote Logo Opennote" [ref=e10] [cursor=pointer]:
+        - img "Opennote Logo" [ref=e12] [cursor=pointer]
+        - heading "Opennote" [level=3] [ref=e13] [cursor=pointer]
+      - navigation [ref=e15]:
+        - button "Blog" [ref=e17] [cursor=pointer]:
+          - text: Blog
+          - img [ref=e18] [cursor=pointer]
+        - button "Pricing" [ref=e20] [cursor=pointer]
+        - button "Our Mission" [ref=e21] [cursor=pointer]
+      - button "Get Started" [ref=e23] [cursor=pointer]
+    - main [ref=e24]:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img "dino doodle"
+              - generic:
+                - img "Opennote logo"
+              - generic:
+                - img "equation doodle"
+              - generic:
+                - img "proton doodle"
+              - generic:
+                - img "a doodle"
+        - generic:
+          - link "Y Combinator Backed by Y Combinator" [ref=e25] [cursor=pointer]:
+            - /url: https://www.opennote.com/blog/yc-announcement
+            - generic [ref=e26] [cursor=pointer]:
+              - img "Y Combinator" [ref=e27] [cursor=pointer]
+              - generic [ref=e28] [cursor=pointer]: Backed by Y Combinator
+          - generic:
+            - generic:
+              - heading "The AI tutor that lives in your notes." [level=1]
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: Make learning feel effortless with AI that works alongside you. No switching apps, no losing focus.
+          - button "Start learning for free" [ref=e30] [cursor=pointer]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: Loved by students at
+          - img [ref=e36]
+        - generic [ref=e39]:
+          - img "UCLA" [ref=e42]
+          - img "Berkeley" [ref=e45]
+          - img "Caltech" [ref=e48]
+          - img "NUS" [ref=e51]
+          - img "IIT" [ref=e54]
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "Everything you need, right where you work." [level=3] [ref=e59]:
+            - text: Everything you need, right where you work.
+            - img [ref=e61]
+          - heading "Opennote Journals - The AI tutor that lives in your notes" [level=4] [ref=e64]
+        - generic [ref=e67]:
+          - generic [ref=e68] [cursor=pointer]:
+            - generic [ref=e70] [cursor=pointer]:
+              - generic [ref=e71] [cursor=pointer]:
+                - heading "Visual learning, instantly" [level=3] [ref=e72] [cursor=pointer]
+                - paragraph [ref=e73] [cursor=pointer]: Generate video lessons, graphs, and images directly in your notes to boost your understanding
+              - img [ref=e76] [cursor=pointer]
+            - img "Visual learning, instantly" [ref=e80] [cursor=pointer]
+          - generic [ref=e83] [cursor=pointer]:
+            - generic [ref=e84] [cursor=pointer]:
+              - heading "Turn any audio or video into structured notes" [level=3] [ref=e85] [cursor=pointer]
+              - paragraph [ref=e86] [cursor=pointer]: Record live lectures and meetings, or upload YouTube videos to automatically generate organized notes in your journal
+            - img [ref=e89] [cursor=pointer]
+          - generic [ref=e96] [cursor=pointer]:
+            - generic [ref=e97] [cursor=pointer]:
+              - heading "Reference your existing knowledge" [level=3] [ref=e98] [cursor=pointer]
+              - paragraph [ref=e99] [cursor=pointer]: Integrate your Drive and Notion to have Feynman automatically reference your resources and the web as you work
+            - img [ref=e102] [cursor=pointer]
+          - generic [ref=e109] [cursor=pointer]:
+            - generic [ref=e110] [cursor=pointer]:
+              - heading "Generate practice and flashcards in your notes" [level=3] [ref=e111] [cursor=pointer]
+              - paragraph [ref=e112] [cursor=pointer]: Create practice problems and flashcard sets to test your knowledge and improve your active review
+            - img [ref=e115] [cursor=pointer]
+          - generic [ref=e122] [cursor=pointer]:
+            - generic [ref=e123] [cursor=pointer]:
+              - heading "Smart, proactive feedback as you write" [level=3] [ref=e124] [cursor=pointer]
+              - paragraph [ref=e125] [cursor=pointer]: Get insightful comments and suggestions from Feynman, right where you work. No prompting needed
+            - img [ref=e128] [cursor=pointer]
+          - generic [ref=e133] [cursor=pointer]:
+            - generic [ref=e135] [cursor=pointer]:
+              - generic [ref=e136] [cursor=pointer]:
+                - heading "Study and collaborate with friends" [level=3] [ref=e137] [cursor=pointer]
+                - paragraph [ref=e138] [cursor=pointer]: Share journals and work together with real-time editing, comments, and AI guidance
+              - img [ref=e141] [cursor=pointer]
+            - img "Study and collaborate with friends" [ref=e145] [cursor=pointer]
+      - generic [ref=e148]:
+        - heading "Learn more, spend less." [level=3] [ref=e152]:
+          - text: Learn more, spend less.
+          - img [ref=e154]
+        - generic [ref=e156]:
+          - generic [ref=e158]:
+            - button "Monthly" [ref=e159] [cursor=pointer]
+            - button "Yearly Save 17%" [ref=e160] [cursor=pointer]:
+              - text: Yearly
+              - generic [ref=e161] [cursor=pointer]: Save 17%
+          - generic [ref=e162]:
+            - generic [ref=e167]:
+              - heading "Free" [level=3] [ref=e168]
+              - generic [ref=e169]:
+                - generic [ref=e170]: $0
+                - generic [ref=e171]: USD/month
+              - generic [ref=e172]:
+                - generic [ref=e173]:
+                  - img [ref=e174]
+                  - generic [ref=e177]: Limited journals and chats
+                - generic [ref=e178]:
+                  - img [ref=e179]
+                  - generic [ref=e182]: Limited image andvideo generations
+                - generic [ref=e183]:
+                  - img [ref=e184]
+                  - generic [ref=e187]: Limited notes transcriptions
+                - generic [ref=e188]:
+                  - img [ref=e189]
+                  - generic [ref=e192]: Limited flashcard and practice generations
+                - generic [ref=e193]:
+                  - img [ref=e194]
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Knowledge base integrations
+                    - generic [ref=e198]:
+                      - img "Google Drive" [ref=e199]
+                      - img "Notion" [ref=e200]
+            - generic [ref=e203] [cursor=pointer]:
+              - generic [ref=e205] [cursor=pointer]: Most Popular
+              - generic [ref=e206] [cursor=pointer]:
+                - generic [ref=e207] [cursor=pointer]:
+                  - heading "Explorer" [level=3] [ref=e208] [cursor=pointer]
+                  - generic [ref=e209] [cursor=pointer]:
+                    - generic [ref=e210] [cursor=pointer]: $12.50
+                    - generic [ref=e211] [cursor=pointer]: USD/month
+                  - generic [ref=e213] [cursor=pointer]:
+                    - text: 🎓
+                    - generic [ref=e214] [cursor=pointer]: Students with their education email get an extra 20% off all plans!
+                  - generic [ref=e215] [cursor=pointer]:
+                    - generic [ref=e216] [cursor=pointer]:
+                      - img [ref=e217] [cursor=pointer]
+                      - generic [ref=e220] [cursor=pointer]: Unlimited journals & chats
+                    - generic [ref=e221] [cursor=pointer]:
+                      - img [ref=e222] [cursor=pointer]
+                      - generic [ref=e225] [cursor=pointer]: Unlimited image generation
+                    - generic [ref=e226] [cursor=pointer]:
+                      - img [ref=e227] [cursor=pointer]
+                      - generic [ref=e230] [cursor=pointer]: 3 video generations / day
+                    - generic [ref=e231] [cursor=pointer]:
+                      - img [ref=e232] [cursor=pointer]
+                      - generic [ref=e235] [cursor=pointer]: 5 notes transcriptions / day
+                    - generic [ref=e236] [cursor=pointer]:
+                      - img [ref=e237] [cursor=pointer]
+                      - generic [ref=e240] [cursor=pointer]: 5 flashcard generations / day
+                    - generic [ref=e241] [cursor=pointer]:
+                      - img [ref=e242] [cursor=pointer]
+                      - generic [ref=e245] [cursor=pointer]: 5 AI grading sessions / week
+                    - generic [ref=e246] [cursor=pointer]:
+                      - img [ref=e247] [cursor=pointer]
+                      - generic [ref=e250] [cursor=pointer]: 30 day version history
+                    - generic [ref=e251] [cursor=pointer]:
+                      - img [ref=e252] [cursor=pointer]
+                      - generic [ref=e254] [cursor=pointer]:
+                        - generic [ref=e255] [cursor=pointer]: Google Drive export
+                        - img "Google Drive" [ref=e257] [cursor=pointer]
+                    - generic [ref=e258] [cursor=pointer]:
+                      - img [ref=e259] [cursor=pointer]
+                      - generic [ref=e261] [cursor=pointer]:
+                        - generic [ref=e262] [cursor=pointer]: Access to Video Vault
+                        - img [ref=e263]
+                - button "Get Explorer" [ref=e265] [cursor=pointer]:
+                  - generic [ref=e266] [cursor=pointer]: Get Explorer
+            - generic [ref=e270] [cursor=pointer]:
+              - generic [ref=e271] [cursor=pointer]:
+                - heading "Scholar" [level=3] [ref=e272] [cursor=pointer]
+                - generic [ref=e273] [cursor=pointer]:
+                  - generic [ref=e274] [cursor=pointer]: $20.83
+                  - generic [ref=e275] [cursor=pointer]: USD/month
+                - generic [ref=e277] [cursor=pointer]:
+                  - text: 🎓
+                  - generic [ref=e278] [cursor=pointer]: Students with their education email get an extra 20% off all plans!
+                - generic [ref=e279] [cursor=pointer]:
+                  - generic [ref=e281] [cursor=pointer]: Everything in Explorer +
+                  - generic [ref=e282] [cursor=pointer]:
+                    - img [ref=e283] [cursor=pointer]
+                    - generic [ref=e285] [cursor=pointer]:
+                      - generic [ref=e286] [cursor=pointer]: Access to the real-time, proactive AI tutor
+                      - img [ref=e287]
+                  - generic [ref=e289] [cursor=pointer]:
+                    - img [ref=e290] [cursor=pointer]
+                    - generic [ref=e293] [cursor=pointer]: Unlimited image and video generations
+                  - generic [ref=e294] [cursor=pointer]:
+                    - img [ref=e295] [cursor=pointer]
+                    - generic [ref=e298] [cursor=pointer]: Unlimited notes transcriptions
+                  - generic [ref=e299] [cursor=pointer]:
+                    - img [ref=e300] [cursor=pointer]
+                    - generic [ref=e303] [cursor=pointer]: Unlimited flashcards and practice problems
+                  - generic [ref=e304] [cursor=pointer]:
+                    - img [ref=e305] [cursor=pointer]
+                    - generic [ref=e308] [cursor=pointer]: Unlimited AI grading
+                  - generic [ref=e309] [cursor=pointer]:
+                    - img [ref=e310] [cursor=pointer]
+                    - generic [ref=e313] [cursor=pointer]: Unlimited version history
+              - button "Get Scholar" [ref=e314] [cursor=pointer]:
+                - generic [ref=e315] [cursor=pointer]: Get Scholar
+          - generic [ref=e316]:
+            - text: Student discounts will be automatically applied to accredited emails in our database of institutions.
+            - text: If you don't receive this, contact us at
+            - link "support@opennote.me" [ref=e317] [cursor=pointer]:
+              - /url: mailto:support@opennote.me
+            - text: so we can add your institution and get you your discount :).
+      - generic [ref=e320]:
+        - heading "Learning that works for you. Not the other way around." [level=1] [ref=e322]
+        - button "Try for free" [ref=e324] [cursor=pointer]
+    - generic [ref=e328]:
+      - generic [ref=e329]:
+        - generic [ref=e330]:
+          - img "OpenNote Logo" [ref=e331]
+          - heading "Opennote" [level=2] [ref=e332]
+        - paragraph [ref=e333]:
+          - generic [ref=e334]: ©
+          - text: 2025 Opennote, San Francisco, CA
+        - generic [ref=e335]:
+          - button [ref=e336] [cursor=pointer]:
+            - img [ref=e337] [cursor=pointer]
+          - button [ref=e339] [cursor=pointer]:
+            - img [ref=e340] [cursor=pointer]
+          - button [ref=e342] [cursor=pointer]:
+            - img [ref=e343] [cursor=pointer]
+          - button [ref=e345] [cursor=pointer]:
+            - img [ref=e346] [cursor=pointer]
+          - button [ref=e348] [cursor=pointer]:
+            - img [ref=e349] [cursor=pointer]
+        - iframe [ref=e351]:
+          - link "All services are online" [ref=f1e2] [cursor=pointer]:
+            - /url: https://status.opennote.com
+            - img [ref=f1e4] [cursor=pointer]
+            - generic [ref=f1e7] [cursor=pointer]: All services are online
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - button "Contact Us" [ref=e354] [cursor=pointer]:
+            - paragraph [ref=e355] [cursor=pointer]: Contact Us
+          - button "Careers" [ref=e356] [cursor=pointer]:
+            - paragraph [ref=e357] [cursor=pointer]: Careers
+          - button "Blog" [ref=e358] [cursor=pointer]:
+            - paragraph [ref=e359] [cursor=pointer]: Blog
+          - button "Our Mission" [ref=e360] [cursor=pointer]:
+            - paragraph [ref=e361] [cursor=pointer]: Our Mission
+        - generic [ref=e362]:
+          - button "Privacy Policy" [ref=e363] [cursor=pointer]:
+            - paragraph [ref=e364] [cursor=pointer]: Privacy Policy
+          - button "Terms of Service" [ref=e365] [cursor=pointer]:
+            - paragraph [ref=e366] [cursor=pointer]: Terms of Service
+          - button "Cookie Policy" [ref=e367] [cursor=pointer]:
+            - paragraph [ref=e368] [cursor=pointer]: Cookie Policy
+  - region "Notifications alt+T"
+  - paragraph [ref=e369]
+```

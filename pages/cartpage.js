@@ -15,3 +15,5 @@ class cartpage {
         }
     }
 }
+
+module.exports = {cartpage}
